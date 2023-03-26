@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../logo.jpg';
 import cart1 from '../cart.png';
-import {Badge, Button, Form} from "react-bootstrap";
+import {Badge, Form} from "react-bootstrap";
 
 function Header({cart, search, setSearch}) {
 

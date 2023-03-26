@@ -5,9 +5,7 @@ body {
 }
 
 .card-img-top {
-    height: 150px;
-    width: 150px;
-    object-fit: cover; /* This will ensure the image fills the container without stretching */
+    object-fit: cover;
 }
 
 .product-page {

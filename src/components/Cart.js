@@ -17,7 +17,7 @@ const Cart = ({ cart, setCart }) => {
     };
 
     const getTotalPrice = () => {
-        return cart.reduce((total, product) => total + product.price * product.quantity, 0);
+        return cart.reduce((total, product) => total + product.price * product.quantity, 0) + 6.67;
     };
 
     return (
